@@ -11,9 +11,15 @@ import { FRASES } from './frases-mock'
 export class PainelComponent implements OnInit {
 
   public frases: Frase[] = FRASES
+  instrucao: string = 'Traduza a frase'
+
   constructor() { console.log(this.frases) }
 
   ngOnInit() {
   }
 
+
+  public atualizaResposta(): void {
+    console.log('teste')
+  }
 }
