@@ -21,6 +21,10 @@ export class PainelComponent implements OnInit {
 
   public atualizaResposta(resposta: Event): void {
     this.resposta = (<HTMLInputElement>resposta.target).value
-    console.log(this.resposta)
+    // console.log(this.resposta)
+  }
+
+  public verificaResposta(): void {
+    console.log('Verificar respostas: ', this.resposta)
   }
 }
