@@ -66,5 +66,3 @@ export class PainelComponent implements OnInit {
   }
 
 }
-
-
